@@ -26,6 +26,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,6 +92,71 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="LawOfTime\.gitignore" />
+    <Content Include="LawOfTime\Assets\images\13-Moon-Calendar-Hover-Action.png" />
+    <Content Include="LawOfTime\Assets\images\13-Moon-Calendar.png" />
+    <Content Include="LawOfTime\Assets\images\13MoonImg.png" />
+    <Content Include="LawOfTime\Assets\images\Background-13MoonImg.jpg" />
+    <Content Include="LawOfTime\Assets\images\Background-CosmicHistoryImg.jpg" />
+    <Content Include="LawOfTime\Assets\images\Background-KinDayImg.jpg" />
+    <Content Include="LawOfTime\Assets\images\Background-LowOfTimeImg.jpg" />
+    <Content Include="LawOfTime\Assets\images\Background-NoosphereImg.jpg" />
+    <Content Include="LawOfTime\Assets\images\Background-TimeshipEarthImg.jpg" />
+    <Content Include="LawOfTime\Assets\images\blank.svg" />
+    <Content Include="LawOfTime\Assets\images\Contact-Us-Action.png" />
+    <Content Include="LawOfTime\Assets\images\Contact-Us-Hover.png" />
+    <Content Include="LawOfTime\Assets\images\Contact-Us.png" />
+    <Content Include="LawOfTime\Assets\images\Cosmic-History-Hover-Action.png" />
+    <Content Include="LawOfTime\Assets\images\Cosmic-History.png" />
+    <Content Include="LawOfTime\Assets\images\CosmicHistoryImg.png" />
+    <Content Include="LawOfTime\Assets\images\Fb.png" />
+    <Content Include="LawOfTime\Assets\images\Fb_hover.png" />
+    <Content Include="LawOfTime\Assets\images\g-plus.png" />
+    <Content Include="LawOfTime\Assets\images\g-plus_hover.png" />
+    <Content Include="LawOfTime\Assets\images\KinDayImg.png" />
+    <Content Include="LawOfTime\Assets\images\Logo-Slogan.png" />
+    <Content Include="LawOfTime\Assets\images\Logo-Symbol.png" />
+    <Content Include="LawOfTime\Assets\images\Low-Of-Time-Hover-Action.png" />
+    <Content Include="LawOfTime\Assets\images\Low-Of-Time.png" />
+    <Content Include="LawOfTime\Assets\images\LowOfTimeImg.png" />
+    <Content Include="LawOfTime\Assets\images\Move-to-Top.png" />
+    <Content Include="LawOfTime\Assets\images\Noosphere-II-Hover-Action.png" />
+    <Content Include="LawOfTime\Assets\images\Noosphere-II.png" />
+    <Content Include="LawOfTime\Assets\images\NoosphereImg.png" />
+    <Content Include="LawOfTime\Assets\images\pattern2.png" />
+    <Content Include="LawOfTime\Assets\images\preloader%402x.gif" />
+    <Content Include="LawOfTime\Assets\images\preloader-dark%402x.gif" />
+    <Content Include="LawOfTime\Assets\images\preloader-dark.gif" />
+    <Content Include="LawOfTime\Assets\images\preloader.gif" />
+    <Content Include="LawOfTime\Assets\images\SendMail-Action.png" />
+    <Content Include="LawOfTime\Assets\images\SendMail-Hover.png" />
+    <Content Include="LawOfTime\Assets\images\SendMail.png" />
+    <Content Include="LawOfTime\Assets\images\TextureSimpleBrick.jpg" />
+    <Content Include="LawOfTime\Assets\images\Timeship-Earth-Hover-Action.png" />
+    <Content Include="LawOfTime\Assets\images\Timeship-Earth.png" />
+    <Content Include="LawOfTime\Assets\images\TimeshipEarthImg.png" />
+    <Content Include="LawOfTime\Assets\images\vk.png" />
+    <Content Include="LawOfTime\Assets\images\vk_hover.png" />
+    <Content Include="LawOfTime\Assets\main.js" />
+    <Content Include="LawOfTime\LawOfTime.csproj" />
+    <Content Include="LawOfTime\Scripts\functions.js" />
+    <Content Include="LawOfTime\Scripts\lib.js" />
+    <Content Include="LawOfTime\Scripts\lib.min.js" />
+    <Content Include="LawOfTime\Scripts\main.js" />
+    <Content Include="LawOfTime\Scripts\main.min.js" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons-snapchat.svg" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons.svg" />
+    <Content Include="LawOfTime\Styles\fonts\lined-icons.svg" />
+    <Content Include="LawOfTime\Styles\fonts\Simple-Line-Icons.dev.svg" />
+    <Content Include="LawOfTime\Styles\fonts\Simple-Line-Icons.svg" />
+    <Content Include="LawOfTime\Styles\lib.css" />
+    <Content Include="LawOfTime\Styles\lib.min.css" />
+    <Content Include="LawOfTime\Styles\Site.css" />
+    <Content Include="LawOfTime\Styles\Styles.css" />
+    <Content Include="LawOfTime\Styles\Styles.min.css" />
+    <Content Include="LawOfTime\Theme.png" />
+    <Content Include="LawOfTime\Theme.txt" />
+    <Content Include="LawOfTime\ThemeZonePreview.png" />
     <Content Include="TheAdmin\Scripts\admin.js" />
     <Content Include="TheAdmin\Styles\ie.css" />
     <Content Include="TheAdmin\Styles\ie7.css" />
@@ -208,6 +274,83 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LawOfTime\Assets.json" />
+    <Content Include="LawOfTime\Assets\canvas.less" />
+    <Content Include="LawOfTime\Assets\canvas\blog.less" />
+    <Content Include="LawOfTime\Assets\canvas\content.less" />
+    <Content Include="LawOfTime\Assets\canvas\dark.less" />
+    <Content Include="LawOfTime\Assets\canvas\events.less" />
+    <Content Include="LawOfTime\Assets\canvas\extras.less" />
+    <Content Include="LawOfTime\Assets\canvas\footer.less" />
+    <Content Include="LawOfTime\Assets\canvas\header.less" />
+    <Content Include="LawOfTime\Assets\canvas\helpers.less" />
+    <Content Include="LawOfTime\Assets\canvas\layouts.less" />
+    <Content Include="LawOfTime\Assets\canvas\mixins.less" />
+    <Content Include="LawOfTime\Assets\canvas\pagetitle.less" />
+    <Content Include="LawOfTime\Assets\canvas\portfolio.less" />
+    <Content Include="LawOfTime\Assets\canvas\responsive.less" />
+    <Content Include="LawOfTime\Assets\canvas\shop.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\alerts.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\buttons.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\carousel.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\clients.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\countdown.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\counter-skills.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\dividers.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\faqs.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\feature-box.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\headings.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\misc.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\overlay.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\pricing.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\process-steps.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\promo.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\social-icons.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\styled-icons.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\tabs.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\team.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\testimonials.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\toggles-accordions.less" />
+    <Content Include="LawOfTime\Assets\canvas\shortcodes\youtubebg.less" />
+    <Content Include="LawOfTime\Assets\canvas\sliders.less" />
+    <Content Include="LawOfTime\Assets\canvas\topbar.less" />
+    <Content Include="LawOfTime\Assets\canvas\typography.less" />
+    <Content Include="LawOfTime\Assets\canvas\variables.less" />
+    <Content Include="LawOfTime\Assets\canvas\widgets.less" />
+    <Content Include="LawOfTime\Assets\custom.less" />
+    <Content Include="LawOfTime\Assets\Styles.less" />
+    <Content Include="LawOfTime\bower.json" />
+    <Content Include="LawOfTime\Content\Web.config" />
+    <None Include="LawOfTime\packages.config" />
+    <Content Include="LawOfTime\Placement.info" />
+    <Content Include="LawOfTime\Scripts\Web.config" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons-snapchat.eot" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons-snapchat.ttf" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons-snapchat.woff" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons.eot" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons.ttf" />
+    <Content Include="LawOfTime\Styles\fonts\font-icons.woff" />
+    <Content Include="LawOfTime\Styles\fonts\lined-icons.eot" />
+    <Content Include="LawOfTime\Styles\fonts\lined-icons.ttf" />
+    <Content Include="LawOfTime\Styles\fonts\lined-icons.woff" />
+    <Content Include="LawOfTime\Styles\fonts\Simple-Line-Icons.eot" />
+    <Content Include="LawOfTime\Styles\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="LawOfTime\Styles\fonts\Simple-Line-Icons.woff" />
+    <Content Include="LawOfTime\Styles\Web.config" />
+    <Content Include="LawOfTime\Views\Content-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Views\Document.cshtml" />
+    <Content Include="LawOfTime\Views\Layout-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Views\Layout.cshtml" />
+    <Content Include="LawOfTime\Views\Menu-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Views\Slider.cshtml" />
+    <Content Include="LawOfTime\Views\Widget-Header-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Views\Widget-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Views\Zone-Content-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Views\Zone-Header-url-homepage.cshtml" />
+    <Content Include="LawOfTime\Web.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
