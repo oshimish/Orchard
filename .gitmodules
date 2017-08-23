@@ -1,0 +1,3 @@
+[submodule "src/Orchard.Web/Themes/LawOfTime"]
+	path = src/Orchard.Web/Themes/LawOfTime
+	url = https://ahau.visualstudio.com/DefaultCollection/_git/Law-Of-Time
